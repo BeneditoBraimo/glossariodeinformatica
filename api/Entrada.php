@@ -1,8 +1,7 @@
 <?php
 namespace glossariodeinformatica;
-
-
-
+use glossariodeinformatica;
+require_once 'Letra.php';
 
 /**
  * @author Benedito Braimo
@@ -15,22 +14,13 @@ class Entrada
 	private $descricao;
 	private $termo;
 
-	function __construct()
+	function __construct($descricao, $termo)
 	{
+            $this->descricao = $descricao;
+            $this->termo = $termo;
 	}
 
 	function __destruct()
-	{
-	}
-
-
-
-	/**
-	 * 
-	 * @param termo
-	 * @param descricao
-	 */
-	public function adicionarTermo($termo, $descricao)
 	{
 	}
 
