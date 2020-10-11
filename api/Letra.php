@@ -1,5 +1,5 @@
 <?php
-
+namespace glossariodeinformatica;
 /**
  * Description of Letra
  *

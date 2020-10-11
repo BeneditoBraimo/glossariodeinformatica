@@ -1,18 +1,18 @@
 <?php
-namespace glossario_de_informatica;
+namespace glossariodeinformatica;
 
 
 require_once ('Entrada.php');
 
 
 
-use glossario_de_informatica;
+use glossariodeinformatica;
 /**
  * @author Benedito Braimo
  * @version 1.0
  * @created 17-Sep-2020 4:16:40 PM
  */
-class Entrada_Sugerida extends Entrada
+class EntradaSugerida extends Entrada
 {
 
 	private $palavra;

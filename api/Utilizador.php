@@ -1,5 +1,5 @@
 <?php
-namespace glossario_de_informatica;
+namespace glossariodeinformatica;
 
 
 require_once ('Entrada.php');
