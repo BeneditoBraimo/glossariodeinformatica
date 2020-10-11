@@ -1,5 +1,5 @@
 <?php
-//namespace glossario_de_informatica;
+namespace glossariodeinformatica;
 
 
 require_once ('Entrada.php');
@@ -7,8 +7,8 @@ require_once ('Utilizador.php');
 
 
 
-//use glossario_de_informatica;
-//use glossario_de_informatica;
+use glossariodeinformatica;
+use glossariodeinformatica;
 /**
  * @author Benedito Braimo
  * @version 1.0

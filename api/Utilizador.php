@@ -3,12 +3,12 @@ namespace glossario_de_informatica;
 
 
 require_once ('Entrada.php');
-require_once ('Entrada_Sugerida.php');
+require_once ('EntradaSugerida.php');
 
 
 
-use glossario_de_informatica;
-use glossario_de_informatica;
+use glossariodeinformatica;
+use glossariodeinformatica;
 /**
  * @author Benedito Braimo
  * @version 1.0
@@ -34,12 +34,12 @@ class Utilizador
 
 	public function getEntrada()
 	{
-		return m_Entrada;
+		return $m_Entrada;
 	}
 
 	public function getEntrada_Sugerida()
 	{
-		return m_Entrada_Sugerida;
+		return $m_Entrada_Sugerida;
 	}
 
 	/**
@@ -57,7 +57,7 @@ class Utilizador
 	 */
 	public function setEntrada(Entrada $newVal)
 	{
-		m_Entrada = newVal;
+		$m_Entrada = $newVal;
 	}
 
 	/**
@@ -66,7 +66,7 @@ class Utilizador
 	 */
 	public function setEntrada_Sugerida(Entrada_Sugerida $newVal)
 	{
-		m_Entrada_Sugerida = newVal;
+		$m_Entrada_Sugerida = $newVal;
 	}
 
 }
