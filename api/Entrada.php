@@ -35,25 +35,6 @@ class Entrada
 	public function lerDescricao()
 	{
 	}
-        
-        public function getDescricao() {
-            return $this->descricao;
-        }
-
-        public function getTermo() {
-            return $this->termo;
-        }
-
-        public function setDescricao($descricao) {
-            $this->descricao = $descricao;
-            return $this;
-        }
-
-        public function setTermo($termo) {
-            $this->termo = $termo;
-            return $this;
-        }
-
-
 
 }
+?>
